@@ -3,10 +3,10 @@ h1 {
   text-align: center;
 }
 
-/* Añadimos un fondo rojo, con un ancho de 200px y un alto de 25px 
-a la clase marker o marcador. */
+/* Añadimos un fondo rojo, con un ancho de 200px y un alto,de 25px a la clase marker o marcador. */
 .marker {
   background-color: red;
   height: 25px;
   width: 200px;
+  margin: auto;
 }
