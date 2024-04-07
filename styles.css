@@ -10,8 +10,15 @@ h1 {
   margin: 10px auto; /* Agregamos que tenga un margen entre cada clase de 10px de alto y bajo, solapándose y que a los lados se ajuste automaticamente */
 }
 
+/* Para usar la función rgb en CSS, debemos tomar en cuenta los
+   valores de cada una de sus partes:
+      rgb(red, green, blue);
+   Cada color se representa del 0 al 255 (como una IP address).
+   El 0 representa la ausencia del color (negro) y el 255 el 100% del mismo (el color al máximo). La combinación de estos 3 colores, dá como resultado blanco, o bien, algún otro gradiente.
+*/
+
 .one {
-  background-color: red;
+  background-color: rgb(255, 0, 0); /*El color que prevalece en el rojo*/
 }
 
 .two {
