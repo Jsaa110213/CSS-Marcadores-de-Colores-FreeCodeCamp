@@ -22,7 +22,7 @@ h1 {
 }
 
 .two {
-  background-color: rgb(0, 255, 255); /*El color pasa de verde puro a cian*/
+  background-color: rgb(0, 255, 127); /*El color pasa de cian a verde primavera*/
 }
 
 .three {
