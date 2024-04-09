@@ -26,8 +26,8 @@ h1 {
 }
 
 .three {
-  background-color: rgb(255, 0, 255);
-  /*El color pasa de azul puro a magenta.*/
+  background-color: rgb(127, 0, 255);
+  /*El color pasa de magenta a violeta.*/
 }
 
 .container {
