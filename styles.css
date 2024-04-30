@@ -24,7 +24,7 @@ h1 {
 }
 /* Si miramos el resultado de este cambio de colores, es muy probable que nuestros ojos se enfocaran en la linea roja, esto ocurre por el contraste que hay entre el rojo y el negro, que es mas notorio. Este efecto es muy útil para resaltar botones, encabezados y links. */
 .two {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(0, 0, 0);
 }
 
 .three {
