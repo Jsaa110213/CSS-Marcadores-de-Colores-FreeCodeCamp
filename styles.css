@@ -18,11 +18,11 @@ h1 {
 */
 
 .one {
-  background-color: rgb(0, 0, 0); /*El color pasa de naranja a verde chartreuse.*/
+  background-color: rgb(255, 0, 0); /*El color pasa de naranja a verde chartreuse.*/
 }
 
 .two {
-  background-color: rgb(0, 0, 0); /*El color pasa de verde primavera a un azul cielo.*/
+  background-color: rgb(0, 255, 255); /*El color pasa de verde primavera a un azul cielo.*/
 }
 
 .three {
