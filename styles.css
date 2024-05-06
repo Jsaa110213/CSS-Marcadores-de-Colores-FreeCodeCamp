@@ -17,7 +17,7 @@ h1 {
    El 0 representa la ausencia del color (negro) y el 255 el 100% del mismo (el color al máximo). La combinación de estos 3 colores, dá como resultado blanco, o bien, algún otro gradiente.
 */
 
-.one {
+.red {
   background-color: rgb(0, 0, 0); 
 }
 /* Si miramos el resultado de este cambio de colores, es muy probable que nuestros ojos se enfocaran en la linea roja, esto ocurre por el contraste que hay entre el rojo y el negro, que es mas notorio. Este efecto es muy útil para resaltar botones, encabezados y links. */
