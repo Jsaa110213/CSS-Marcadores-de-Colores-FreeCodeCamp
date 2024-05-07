@@ -10,17 +10,17 @@ h1 {
   margin: 10px auto; /* Agregamos que tenga un margen entre cada clase de 10px de alto y bajo, solapándose y que a los lados se ajuste automaticamente */
 }
 
-/* Para usar la función rgb en CSS, debemos tomar en cuenta los
-   valores de cada una de sus partes:
-      rgb(red, green, blue);
-   Cada color se representa del 0 al 255 (como una IP address).
-   El 0 representa la ausencia del color (negro) y el 255 el 100% del mismo (el color al máximo). La combinación de estos 3 colores, dá como resultado blanco, o bien, algún otro gradiente.
-*/
+/* ----MARCADORES DE COLORES---- */
+
+/* HEXADECIMAL OR HEX VALUES
+Una vez aprendido el uso de colores con el formato RGB, ahora veremos el uso del formato hexadecimal. Similar al formato RGB, se comienza escribiendo con un "#", segudio de 3 pares de numeros en HEX, el 1er par representa RED, el 2do GREEN y el 3ro BLUE. Por ejemplo: #4B5320. */
+
+/* Para cada par, el valor mínimo es "00", mientras que el valor máximo es "ff"*/
 
 .red {
-  background-color: rgb(255, 0, 0); 
+  background-color: #00ff00; /*Verde*/
 }
-/* Si miramos el resultado de este cambio de colores, es muy probable que nuestros ojos se enfocaran en la linea roja, esto ocurre por el contraste que hay entre el rojo y el negro, que es mas notorio. Este efecto es muy útil para resaltar botones, encabezados y links. */
+
 .green {
   background-color: rgb(0, 0, 0);
 }
