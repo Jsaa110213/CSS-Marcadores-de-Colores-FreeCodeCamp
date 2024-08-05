@@ -25,8 +25,21 @@ Una vez aprendido el uso de colores con el formato RGB, ahora veremos el uso del
   background-color:  #007F00; /*Verde*/
 }
 
+/* HSL COLOR MODEL
+Como tercera forma de obtener de generar colores es por medio del modelo HSL (Hue, Saturation and Lightness), permite obtener un mayor control sobre los colores. Su sintaxis es la siguiente:
+
+Ejemplo-color: hsl(hue, Saturation%, Lightness%)
+  Ejemplo-color: hsl(211, 96%, 44%);
+
+  - El primer valor, indica en grados (sí, grados, como en circulo de colores) que tono o matiz de color ocupar. Varía desde 0º (rojo) hasta 360º (rojo nuevamente después de una vuelta completa).
+
+  - El segundo indica la saturacion del color. Varía desde 0% (gris) hasta 100% (color completamente saturado).
+
+  - El tercero es la luminosidad o brillo del color, que se mide también en porcentaje y varía desde 0% (negro) hasta 100% (blanco).
+*/
+
 .blue {
-  background-color: rgb(0, 0, 0);
+  background-color: hsl(240, 100%, 50%);
 }
 
 .container {
