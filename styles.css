@@ -18,7 +18,7 @@ Una vez aprendido el uso de colores con el formato RGB, ahora veremos el uso del
 /* Para cada par, el valor mínimo es "00", mientras que el valor máximo es "ff"*/
 
 .red {
-  background-color: rgb(255, 0, 0);
+  background: rgb(255, 0, 0);
 }
 
 .green {
