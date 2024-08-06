@@ -12,13 +12,17 @@ h1 {
 
 /* ----MARCADORES DE COLORES---- */
 
-/* HEXADECIMAL OR HEX VALUES
-Una vez aprendido el uso de colores con el formato RGB, ahora veremos el uso del formato hexadecimal. Similar al formato RGB, se comienza escribiendo con un "#", segudio de 3 pares de numeros en HEX, el 1er par representa RED, el 2do GREEN y el 3ro BLUE. Por ejemplo: #4B5320. */
+/* linear-gradient
+Es una función en CSS, que permite crear un elemeto image con dos o mas colores, creando transiciones que pasan de un color a otro. Por eso se asocia con la propiedad background. La sintaxis es:
 
-/* Para cada par, el valor mínimo es "00", mientras que el valor máximo es "ff"*/
+  linear-gradient(gradientDirection, color1, color2, ...);
+
+- gradientDirection es la dirección de la línea a lo largo de la cual tendrá lugar la transición.
+- color1 y color2 son argumentos de color, representando los colores usados en la transición (ya sea en  hex, rgb o hsl). 
+*/
 
 .red {
-  background: rgb(255, 0, 0);
+  background: linear-gradient(90deg) rgb(255, 0, 0);
 }
 
 .green {
