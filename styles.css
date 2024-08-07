@@ -13,7 +13,7 @@ h1 {
 /* ----MARCADORES DE COLORES---- */
 
 /* linear-gradient
-Es una función en CSS, que permite crear un elemeto image con dos o mas colores, creando transiciones que pasan de un color a otro. Por eso se asocia con la propiedad background. La sintaxis es:
+Es una función en CSS, que permite crear un elemento image con dos o mas colores, creando transiciones que pasan de un color a otro. Por eso se asocia con la propiedad background. La sintaxis es:
 
   linear-gradient(gradientDirection, color1, color2, ...);
 
@@ -22,7 +22,8 @@ Es una función en CSS, que permite crear un elemeto image con dos o mas colores
 */
 
 .red {
-  background: linear-gradient(90deg, rgb(255,0,0), rgb(0, 255, 0));
+  background: linear-gradient(90deg, rgb(255,0,0),
+  rgb(0, 255, 0), rgb(0, 0, 255)); /* Dá como resultado una transción de rojo, verde y azul*/
 }
 
 .green {
