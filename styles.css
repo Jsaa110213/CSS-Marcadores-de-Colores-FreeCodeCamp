@@ -25,7 +25,7 @@ Es una función en CSS, que permite crear un elemento image con dos o mas colore
 * En este caso, podemos definir que tanto de la imagen creada por el linear-gradient, será ocupado por un color (un "Color-stops" o parada de color), ya sea en px o en porcentajes. Para este ejemplo tenemos al rojo en RGB, al que se le aplicó un color-stops de 75%.
 */
 .red {
-  background: linear-gradient(90deg, rgb(255,0,0) 75%,
+  background: linear-gradient(180deg, rgb(255,0,0) 75%,
   rgb(0, 255, 0), rgb(0, 0, 255)); /* Dá como resultado una transción de más del 70% del gradiente como rojo, el resto es verde y azul*/
 }
 
