@@ -30,7 +30,7 @@ Es una función en CSS, que permite crear un elemento image con dos o mas colore
 }
 
 .green {
-  background:  #007F00; /*Verde*/
+  background: linear-gradient(180deg, #55680d); /*Verde*/
 }
 
 /* HSL COLOR MODEL
