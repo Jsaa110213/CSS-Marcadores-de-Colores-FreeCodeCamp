@@ -26,7 +26,7 @@ Es una función en CSS, que permite crear un elemento image con dos o mas colore
 */
 .red {
   background: linear-gradient(180deg, rgb(122,74,14) 0%,
-  rgb(0, 255, 0) 50%, rgb(0, 0, 255) 100%); /* Dá como resultado una transción de más del 70% del gradiente como rojo, el resto es verde y azul*/
+  rgb(245, 62, 113) 50%, rgb(0, 0, 255) 100%); /* Dá como resultado una transción de más del 70% del gradiente como rojo, el resto es verde y azul*/
 }
 
 .green {
